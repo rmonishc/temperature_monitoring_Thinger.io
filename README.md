@@ -7,6 +7,8 @@ a local server over WiFi. [read_sensor_dht22.py](https://github.com/rmonishc/tem
 
 Once it is done, I will have to create a dashboard to visualize the data for non-technical users.
 
-Code inspirations:
+# Code inspirations
+
 https://learn.adafruit.com/dht/dht-circuitpython-code
+
 https://medium.com/initial-state/how-to-build-a-raspberry-pi-temperature-monitor-8c2f70acaea9
