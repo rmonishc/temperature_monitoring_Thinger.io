@@ -9,10 +9,10 @@ Once it is done, I will have to create a dashboard to visualize the data for non
 
 # Necessary packages
 As you get started:
-'''
+```
 $ pip3 install adafruit-circuitpython-dht
 $ sudo apt-get install libgpiod2
-'''
+```
 
 # Code inspirations
 
