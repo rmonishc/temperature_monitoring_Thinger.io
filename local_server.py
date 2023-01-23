@@ -10,10 +10,10 @@ def receive_data():
 
     # Write the data to a CSV file
     with open('data.csv', mode='a') as csv_file:
-        fieldnames = ['Temperature', 'Humidity']
+        fieldnames = ['Place', 'Time', 'Temperature', 'Humidity']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writerow(data)
     return 'Data received', 200
 
 if __name__ == '__main__':
-    app.run(host='172.16.10.129', port=8000)
+    app.run(host='192.168.1.77', port=8000)
