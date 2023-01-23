@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-import sys
 import datetime
 import adafruit_dht
 import board
