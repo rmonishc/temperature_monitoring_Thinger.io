@@ -25,7 +25,7 @@ while True:
         # Prepare the data packet
         data = {'Place': 'Labo RD', 'Time': time_now, 'Temperature': temperature, 'Humidity': humidity}
         try:
-            response = requests.post('http://172.16.10.129/data', json=data)
+            response = requests.post('http://192.168.1.77/data', json=data)
             print(response.status_code)
         except Exception as e:
             print(e)
