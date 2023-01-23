@@ -7,6 +7,13 @@ a local server over WiFi. [read_sensor_dht22.py](https://github.com/rmonishc/tem
 
 Once it is done, I will have to create a dashboard to visualize the data for non-technical users.
 
+# Necessary packages
+As you get started:
+'''
+$ pip3 install adafruit-circuitpython-dht
+$ sudo apt-get install libgpiod2
+'''
+
 # Code inspirations
 
 https://learn.adafruit.com/dht/dht-circuitpython-code
