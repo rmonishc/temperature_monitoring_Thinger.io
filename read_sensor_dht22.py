@@ -20,6 +20,7 @@ if str(sys.argv[1]) == 'temperature':
         try:
             temperature = DHT_device.temperature
             humidity = DHT_device.humidity
+            time_now = datetime.datetime.now().strftime('%H:%M:%S')
             # Print what we got to the REPL
             print("Temp: {:.1f} *C \t Humidity: {}%".format(temperature, humidity))
         except RuntimeError as e:
