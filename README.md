@@ -16,6 +16,13 @@ $ pip3 install adafruit-circuitpython-dht
 $ sudo apt-get install libgpiod2
 ```
 
+As on the server side, Flask is needed:
+```
+pip install flask
+```
+
+Dash could be used to further enhance visualizations if needed
+
 # Code inspirations
 
 https://learn.adafruit.com/dht/dht-circuitpython-code
