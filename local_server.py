@@ -16,4 +16,4 @@ def receive_data():
     return 'Data received', 200
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.77', port=8000)
+    app.run(host='172.16.10.129', port=8000, debug=True)
