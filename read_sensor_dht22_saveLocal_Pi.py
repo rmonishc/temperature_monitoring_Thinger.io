@@ -31,7 +31,7 @@ while True:
         #using the date as the csv file name, that way every day a file will be created
         csv_filenow = str(datetime.date.today())
         time_now = datetime.datetime.now().strftime('%H:%M:%S')
-        
+
         check_dir('./CSV_FILES/' + csv_filenow + '.csv')
 
         #Appending to CSV
