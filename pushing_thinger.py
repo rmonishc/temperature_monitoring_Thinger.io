@@ -13,6 +13,8 @@ humidity = DHT_device.humidity
 
 #setting frequency to read data
 number_of_seconds_to_sleep = 5
+url = "url given by thinger"
+headers = {'Authorization': 'Bearer '}
 
 
 while True:
@@ -25,7 +27,7 @@ while True:
         # Prepare the data packet
         data = {'Place': 'Labo RD', 'Time': time_now, 'Temperature': temperature, 'Humidity': humidity}
         try:
-            response = requests.post('http://192.168.1.77/data', json=data)
+            response = requests.post(url, json=data, headers=headers)
             print(response.status_code)
         except Exception as e:
             print(e)
