@@ -3,7 +3,7 @@ I am starting a new project for work. The aim is to build a prototype system tha
 ![image](https://user-images.githubusercontent.com/122089762/214335789-120866fd-caeb-47df-a798-37151508be02.png)
 
 After taking a lot of different turns this is what I have:
-1. A code on Pi that reads the DHT22 sensor and sends it to a Thinger.io server.
+1. A code on Pi, [pushing_thinger.py](https://github.com/rmonishc/temperature_monitoring/blob/main/pushing_thinger.py), that reads the DHT22 sensor and sends it to a Thinger.io server.
 2. There hasn't been much documentation on sending data to Thinger using python. But it was possible to register the device as HTTP device and using requests in Python to send temperature and humidity to the server.
 
 # Necessary packages
