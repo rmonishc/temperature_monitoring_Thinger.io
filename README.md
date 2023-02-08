@@ -8,7 +8,7 @@ After taking a lot of different turns this is what I have:
 
 And Voilà
 
-![image](https://user-images.githubusercontent.com/122089762/217532894-14f27364-351b-4c36-ab30-eef6cf0b0d59.png)
+![image](https://user-images.githubusercontent.com/122089762/217533353-cf4d7f46-1ffb-4542-a0ec-4842495f553e.png)
 
 
 # Necessary packages
